@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script> 
+    function render() 
+    {
+        //var inputData = frmMain.txtInput.value;
+        //alert(inputData);
+        // var renderText = 'Kesa Diya';
+        // console.log(renderText);=
+
+        // var renderNumber = 786;
+        // console.log(renderNumber);
+        var inputData01 = parseInt(frmMain.txtInput01.value);
+        var inputData02 = parseInt(frmMain.txtInput02.value);
+          //  alert("The Sum is: "+(inputData01 + inputData02));
+          //  alert("The Sum is: "+(inputData01 - inputData02));
+          //  alert("The Sum is: "+(inputData01 * inputData02));
+          //  alert("The Sum is: "+(inputData01 / inputData02));
+          //  alert("The Sum is: "+(inputData01 % inputData02));
+
+           var msg1= "The Sum is: "+(inputData01 + inputData02) +"\n";
+           var msg2= "The Sum is: "+(inputData01 - inputData02);
+           alert(msg1 + msg2 );
+           
+            ;
+
+    }
+        </script>
+</head>
+<body>
+    <form name=frmMain>
+        <label>Input: </label>
+        <input type="text" name="txtInput01" placeholder="Input01" />
+        <input type="text" name="txtInput02" placeholder="Input02" />
+        <input type="submit" value="Submit"  onclick="render()"/>
+    </form>
+</body>
+</html>
+
