@@ -1,0 +1,38 @@
+<html>
+    <head>
+        Lab 16-Dec-18
+    </head>
+
+    <body>
+        <script>
+            var english = parseInt(prompt("Input Marks for English"));
+            var urdu = parseInt(prompt("Input Marks for Urdu"));
+            var math = parseInt(prompt("Input Marks for Math"));
+            var total = 300;
+            var totalget = english + urdu + math;
+            var totalPerc = (totalget / total) * 100;
+            if (totalPerc >= 60)
+            {
+                alert("Congratulation You are in Grade C");
+            }
+            else if (totalPerc >= 70)
+            {
+                alert("Congratulation You are in Grade B");
+            }
+            else if (totalPerc >= 80)
+            {
+                alert("Congratulation You are in Grade A");
+            }
+            else if (totalPerc >= 80)
+            {
+                alert("Congratulation You are in Grade A");
+            }
+            else
+            {
+                alert("Failed")
+            }
+            alert(totalget);
+            alert(totalPerc+'%');
+        </script>
+    </body>
+</html>
