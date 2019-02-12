@@ -1,0 +1,20 @@
+{
+  "name": "guest-book",
+  "version": "1.0.0",
+  "description": "express-guestbook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+},
+  "keywords": [
+    "guest-book"
+  ],
+  "author": "Muhammad Irfan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
