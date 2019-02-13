@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function render(){    
+            var a = parseInt(frmMain.Ainput.value);
+            var b = parseInt(frmMain.Binput.value);
+            var c = parseInt(frmMain.Cinput.value);
+            var x;
+    
+                x = (-b+Math.sqrt(Math.pow(b,2)-4*a*c))/2*a;
+                alert(x);
+        }
+        </script>
+</head>
+<body>
+    <h3>Quadratic Equation</h3>
+        <form name=frmMain>
+                <label>Input A: </label>
+                <input type="number" name="Ainput" placeholder="Input A" />
+                <br><br>
+                <label>Input B: </label>
+                <input type="number" name="Binput" placeholder="Input B" />
+                <br><br>
+                <label>Input C: </label>
+                <input type="number" name="Cinput" placeholder="Input C" />
+                <br><br>
+                <input type="submit" value="Submit" onclick="render()"/>
+            </form>
+</body>
+</html>

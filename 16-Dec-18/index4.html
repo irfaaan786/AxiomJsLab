@@ -1,0 +1,33 @@
+<html>
+    <head>
+        Lab 16-Dec-18
+    </head>
+
+    <body>
+        <script>
+            var laptop = false;
+            var respberry = true;
+            var light = true;
+            var charged = false;
+            if(laptop == true && charged == true)
+            {
+                alert("You can practice on lab");
+            }
+            else if(charged == true || light == true && laptop == true)
+            {
+                alert("You can still practice on lab");
+            }
+            else if(respberry == true && light == true)
+            {
+                alert("You can Practice on lap using respberry");
+            }
+            else if(respberry == true && light == false)
+            {
+                alert("You can not practice today");
+            }    
+            else{
+                alert("You are not serious");
+            }
+        </script>
+    </body>
+</html>

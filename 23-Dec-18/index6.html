@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var popYear = ["2000","3000","4000"];
+            var popInPk = ["2010", "2011", "2012"];
+            var popResult;
+            for(i = 0; i < popInPk.length; i++)
+            {
+                for(j = 0, num = 1; j < popYear.length; j++, num++)
+                {
+                    var popResult = num+ " -In Year: "+ popInPk[i]+" Population Increases Within Year: "+ popYear[j];
+                    document.write(popResult+"<br>");
+                }
+            }
+        </script>
+    </body>
+</html>
